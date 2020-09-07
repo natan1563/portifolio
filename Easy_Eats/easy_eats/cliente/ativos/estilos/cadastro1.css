@@ -1,0 +1,20 @@
+.fundo {
+    background: border-box rgb(255, 0, 0) url(../imagens/fundo_cad2.jpg) no-repeat 10% 30% scroll;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.formulario{
+    
+}
+.campo {
+    width: 250px;
+    height: 40px;
+    border: none;
+    border-bottom: 5px solid rgb(231, 81, 26);
+    background-color: transparent;
+    color: #FF6347;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}

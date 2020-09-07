@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: 'Oswald', sans-serif;
+  }
+
+body {
+    background-color: #003049;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+.formum {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+    height: auto;
+    width: auto;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.campo {
+    width: auto;
+    height: 40px;
+    border: none;
+    border-bottom: 5px solid #f32222;
+    background-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+  }
+
+.campo::placeholder {
+    text-indent: 15px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #fff;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    background-color: #302b2b99;
+    padding: 10px;
+    border-radius: 10px;
+    padding: 20px 50px;
+    margin: 10px;
+  }
+
+  .select-menu{
+      padding: 10px;
+      margin: 0 auto;
+  }
+
+  .btn-login {
+    width: 120px;
+    height: 35.5px;
+    font-size: 14px;
+    font-weight: bolder;
+    border-radius: 5px;
+    background-color: #747474;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .register{
+    align-self: center;
+    margin-top: 25px; 
+    color: #fff;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 20px;
+  }
+  
+  .register a{
+    color: #fff;
+    font-weight: bolder;
+    cursor: pointer;
+  }
