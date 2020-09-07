@@ -1,0 +1,27 @@
+/*Cardápio da página de clientes */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#contain-table{
+
+}
+.cardapio{
+	justify-content: center;
+	margin: 70px auto;
+	border: 2px solid black;
+	background: #FA8A19;
+	text-align: center;
+	opacity: 0.9;
+	font-weight: bold;
+	color: white;
+}
+#title{
+	color: #091431;
+	font-size: 18px;	
+}
+.cardapio td{
+	padding: 20px 70px;
+}
+
